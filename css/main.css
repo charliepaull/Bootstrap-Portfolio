@@ -1,11 +1,14 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 nav {
     float: right;
     width: 100%;
+}
+
+.clearfix {
+    clear: both;
 }
 
 a {
@@ -25,23 +28,25 @@ a {
     color: #46a580;
 }
 
-.body-container {
-    width: 960px;
-}
-
 .photo {
     margin-left: 10px;
 }
 
 .header-container {
     position: relative;
+
 }
 
 #header {
     position: absolute;
     margin: 20px;
-    padding-top: 40px;
 
+}
+
+.body-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 img { 
